@@ -1,0 +1,26 @@
+[
+  {
+    "uuid": "86ad09ea-cc53-4d45-8ca8-dc0d0ff17b77",
+    "name": "Master_Coombs",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "d3fce61f-8cb2-41eb-9312-5b8e92db83e1",
+    "name": "ConsumingSludge",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "4001a374-7000-4379-afcd-43d222f44cf6",
+    "name": "Chung_et",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "cbe08fdb-3f5b-4ef8-93ca-f5bf9514cf2c",
+    "name": "yoshiman576",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
