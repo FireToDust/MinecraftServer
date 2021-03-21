@@ -1,0 +1,226 @@
+{
+	"pools": [{
+		"rolls": {
+			"min": 3,
+			"max": 8
+		},
+		"entries": [{
+			"type": "item",
+			"name": "minecraft:ender_pearl",
+			"weight": 3,
+			"functions": [{
+				"function": "set_count",
+				"count": {
+					"min": 1,
+					"max": 3
+				}
+			}]
+		}, {
+			"type": "item",
+			"name": "minecraft:diamond_sword",
+			"weight": 1,
+			"functions": [{
+				"function": "enchant_randomly",
+				"enchantments": ["sharpness", "smite", "knockback"],
+				"conditions": [{
+					"condition": "random_chance",
+					"chance": 0.5
+				}]
+			}]
+		}, {
+			"type": "item",
+			"name": "minecraft:diamond_chestplate",
+			"weight": 1,
+			"functions": [{
+				"function": "enchant_randomly",
+				"enchantments": ["protection", "projectile_protection", "thorns"],
+				"conditions": [{
+					"condition": "random_chance",
+					"chance": 0.512
+				}]
+			}]
+		}, {
+			"type": "item",
+			"name": "minecraft:stone",
+			"weight": 1,
+			"functions": [{
+				"function": "set_data",
+				"data": 0
+			}, {
+				"function": "set_count",
+				"count": {
+					"min": 32,
+					"max": 64
+				}
+			}]
+		}, {
+			"type": "item",
+			"name": "minecraft:tnt",
+			"weight": 1,
+			"functions": [{
+				"function": "set_count",
+				"count": {
+					"min": 10,
+					"max": 31
+				}
+			}]
+		}, {
+			"type": "item",
+			"name": "minecraft:flint_and_steel",
+			"weight": 1
+		}, {
+			"type": "item",
+			"name": "minecraft:bow",
+			"weight": 1,
+			"functions": [{
+				"function": "enchant_randomly",
+				"enchantments": ["power", "punch"]
+			}]
+		}, {
+			"type": "item",
+			"name": "minecraft:arrow",
+			"weight": 1,
+			"functions": [{
+				"function": "set_count",
+				"count": {
+					"min": 32,
+					"max": 64
+				}
+			}]
+		}, {
+			"type": "item",
+			"name": "minecraft:lava_bucket",
+			"weight": 1
+		}, {
+			"type": "item",
+			"name": "minecraft:water_bucket",
+			"weight": 1
+		}, {
+			"type": "item",
+			"name": "minecraft:golden_apple",
+			"weight": 1,
+			"functions": [{
+				"function": "set_data",
+				"data": 1
+			}]
+		}, {
+			"type": "item",
+			"name": "minecraft:cooked_beef",
+			"weight": 1,
+			"functions": [{
+				"function": "set_count",
+				"count": {
+					"min": 16,
+					"max": 32
+				}
+			}]
+		}, {
+			"type": "item",
+			"name": "minecraft:chorus_fruit",
+			"weight": 1,
+			"functions": [{
+				"function": "set_count",
+				"count": 5
+			}]
+		}, {
+			"type": "item",
+			"name": "minecraft:diamond_pickaxe",
+			"weight": 1,
+			"functions": [{
+				"function": "enchant_randomly",
+				"enchantments": ["efficiency"]
+			}]
+		}, {
+			"type": "item",
+			"name": "minecraft:snowball",
+			"weight": 2,
+			"functions": [{
+				"function": "set_count",
+				"count": {
+					"min": 1,
+					"max": 16
+				}
+			}]
+		}, {
+			"type": "item",
+			"name": "minecraft:experience_bottle",
+			"weight": 2,
+			"functions": [{
+				"function": "set_count",
+				"count": {
+					"min": 1,
+					"max": 32
+				}
+			}]
+		}, {
+			"type": "item",
+			"name": "minecraft:dye",
+			"weight": 5,
+			"functions": [{
+				"function": "set_data",
+				"data": 4
+			}, {
+				"function": "set_count",
+				"count": {
+					"min": 1,
+					"max": 64
+				}
+			}]
+		},  {
+                    "type": "item",
+                    "name": "minecraft:spawn_egg",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EntityTag:{id:\"Skeleton\"}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:fishing_rod",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§r§bBooster§r\",Lore:[\"§r§5Right Click To Boost Up§r\"]}}"
+                        }
+                    ]
+                },
+					{
+                    "type": "item",
+                    "name": "minecraft:nether_star",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§r§3Wither Shower§r\",Lore:[\"§r§5Drop To Wither Attack Random Player§r\"]}}"
+                        }
+                    ]
+                },
+				{
+			"type": "item",
+			"name": "minecraft:skull",
+			"weight": 1,
+			"functions": [{
+				"function": "set_data",
+				"data": 5
+			}, {
+				"function": "set_nbt",
+				 "tag": "{display:{Name:\"§r§6PacHead§r\",Lore:[\"§r§5Wear To Break Blocks Infront§r\"]}}"
+			}]
+		},
+			 {
+                    "type": "item",
+                    "name": "minecraft:spawn_egg",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{EntityTag:{id:\"Blaze\"}}"
+                        }
+                    ]
+                }]
+	}]
+}
