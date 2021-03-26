@@ -24,8 +24,26 @@
     "bypassesPlayerLimit": false
   },
   {
+    "uuid": "8c455a6f-a3b5-4c41-a6b2-d6c6422f5a18",
+    "name": "dragonbridger",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "d3fce61f-8cb2-41eb-9312-5b8e92db83e1",
     "name": "ConsumingSludge",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "0d4adb5a-695f-4831-8e17-a8d5edf1fc24",
+    "name": "angrybear091",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "17234396-5a6c-4705-a529-4377be278e11",
+    "name": "jimbojones75",
     "level": 4,
     "bypassesPlayerLimit": false
   },

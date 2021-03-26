@@ -1,4 +1,0 @@
-Loading BuildTools version: git-BuildTools-36c11e9-126 (#126)
-Java Version: Java 8
-Current Path: C:\Users\User\OneDrive\Desktop\Minecraft server\server\.
-Please do not run BuildTools in a Dropbox, OneDrive, or similar. You can always copy the completed jars there later.

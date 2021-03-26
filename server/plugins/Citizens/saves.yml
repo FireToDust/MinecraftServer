@@ -1,0 +1,520 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 14
+npc:
+  '12':
+    metadata:
+      cached-skin-uuid-name: bridger
+      cached-skin-uuid: b03c08af-9f04-46e3-80a1-1675e41d0af1
+    name: Bridger
+    uuid: 29f6e912-e2aa-4de6-b86c-4ac2b7a97301
+    traits:
+      type: PLAYER
+      inventory:
+        '0':
+          type_namespace: minecraft
+          type_key: red_wool
+          amount: 2
+          durability: 0
+      location:
+        bodyYaw: -97.38461
+        world: serverGames
+        x: '-5.5215'
+        y: '52.0'
+        z: '1000.491'
+        yaw: '-87.541'
+        pitch: '23.483'
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        signature: v1/ZwzGYXo5CMU/FCHqlOXcVwnkcmrjvxWnmHtF9Q5827v0AVPby4XyXuL6KMnQrqHL8QQncYOKP1hUe7wIgaAz1ImEUakn1eAk44xmWAatpHZ0GSlo7w50vhgrG4PL7gMIrf6mrbQyfH0wq5752o78/Q8TBVOkvl7DLBDg9Vi73FKrHS6Fq7jaGVLeQz2osOXoGa2IyMfZIK5cBCht29Fp/hoNphV7pBhRgO0x6Wmcg4qyauNEcSv1ntl4OdgDOW/kMwQeJiqoEaJo4C5A02gkF6dFz5lPXdrS+ZdJJ7HX5DCaDYy2jt6SdXXeIOLLc29gAiVDYzjTGMF1ef7QvRx2gtHOxmPKwUyqzJYdF4UMh40S8yPQ5N/i9stF7wwZnNkCI76g9LKZtjJeS+AEBkyOYi4qA1/XjfRzEpdAa8/1kDCFLMbZxcSOVCjzk1ZySFRxege1OyRyYNQ3e/0QuZGuv4ZzFdb45niE/IQbN/fOM4BhUXYwHq1gNHm+U2k/PH6ODh50Z5yHAiU+X0DO2M8bm8N5Ggi8hGc/XMP0m1/0ssQAZkfWZKOeiXT9utaFE69/f0nsk01D4RI8zuD1VEw+Zfhl/p54Xu8rD6YoDIo29MKfZdPRV4ZRA4VcpavN7QdbgBPM91ZXD/YaWgcrWWxFLnFy76qhD7kaOVulN6qk=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYxNjUyMDY2NzMxMCwKICAicHJvZmlsZUlkIiA6ICJiMDNjMDhhZjlmMDQ0NmUzODBhMTE2NzVlNDFkMGFmMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJCcmlkZ2VyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzZmOTJkNDA1MWE0YWRmOWFiMjA1NjYwZWRlNmYxNGJkNDk2NmY4NDhmN2I2ZDc2NWEzMGQ2MzU4NWVmMTlkODAiCiAgICB9CiAgfQp9
+        updateSkins: false
+      equipment:
+        hand:
+          type_namespace: minecraft
+          type_key: red_wool
+          amount: 2
+          durability: 0
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: false
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: scoreboard players set @s ClassInit 4
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      owner:
+        owner: ConsumingSludge
+        uuid: d3fce61f-8cb2-41eb-9312-5b8e92db83e1
+    traitnames: inventory,location,spawned,type,skintrait,mounttrait,equipment,lookclose,owner,commandtrait,scoreboardtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '11':
+    metadata:
+      cached-skin-uuid-name: archer
+      cached-skin-uuid: 3bef2709-c2cf-4247-b7d8-4b8760c1a920
+    name: Archer
+    uuid: 2f2cdd1f-10d8-4d19-8861-97e5468b1449
+    traits:
+      type: PLAYER
+      inventory:
+        '0':
+          type_namespace: minecraft
+          type_key: bow
+          amount: 1
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAR0AAI9PXQACW1ldGEtdHlwZXQACGVuY2hhbnRzdAALcmVwYWlyLWNvc3R1cQB+AAYAAAAEdAAISXRlbU1ldGF0AApVTlNQRUNJRklDc3IAN2NvbS5nb29nbGUuY29tbW9uLmNvbGxlY3QuSW1tdXRhYmxlQmlNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAHhxAH4AA3VxAH4ABgAAAAF0AApEVVJBQklMSVRZdXEAfgAGAAAAAXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAABc3EAfgAUAAAAAQ==
+          enchantments:
+            unbreaking: 1
+      location:
+        bodyYaw: -51.389847
+        world: serverGames
+        x: '-5.5309'
+        y: '52.0'
+        z: '1004.5026'
+        yaw: '-91.3161'
+        pitch: '18.7863'
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: false
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        signature: mqmCwO3B/rPaSRd/4p9QKS6UuJ5n40VFHGczl8bygzzNOXRDKHvecgllr3LovzEKPkcYuWOp36zgL5CFl4ZCRM9W9LRmAo3Di8G/hZhIdJe4dstsax9Wy9PyhdaXS9gnsyQt5ckPZ1qiuNpuss0aGIoIU4nlJd489fVqUYzEez0vaIxjwmTuZilKVirvFLDrFk3oN5tRMwOTZAQ87NtskVJpO0i7aJqr8TrQBDrgVcKOzvPai4XlCncPbhjo8VsrTxvBWomMf9tc6/ryvaBLxaY0rehB9HYCmdEYhBHAOxG2q0dqrDvAP8bYrmSAdWU0FR/R/L3yjMqj+J04pQXn7/FsqYAEWbRXfEp4VOFiphvon61+fkimOEvvLlRrT7/iBvoxcU3ri7JtHTibDObdHjPQGzeS+bGdWQT8XTrs5B475nNqSZxw31Chz+My8V4baETilJFnKgeVyh3uNwG1445PREOvkQUOT8FY5VzEuRn+ra3ltxUXsBGhdAobUnl6F2s4oFGBZzEeJ5CoTuYM7qCNjoOlZmHtuMGaMCblgseMN9XzjpkNAMLQ22XZExbNoDWai0Mb0QNeZBGyDSK/McXi9oycH2e1N1jvvqMa3+wZv+FQGs8jjWeFd8c0y3iDwoNZ2n00DchPguFMX66kFpXBjiH8icWg6s4Hn++IoU8=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYxNjUyMDQ5NTA2MiwKICAicHJvZmlsZUlkIiA6ICIzYmVmMjcwOWMyY2Y0MjQ3YjdkODRiODc2MGMxYTkyMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBcmNoZXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYmJkZGFlNGQ5NWJlZDM0NDdlYmU4YzNiMWM1N2VmNDAzNzA5MDcyMmIyMWU1YzhjMjg4M2JiOWQ5NTcyNiIKICAgIH0KICB9Cn0=
+        updateSkins: false
+      equipment:
+        hand:
+          type_namespace: minecraft
+          type_key: bow
+          amount: 1
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAR0AAI9PXQACW1ldGEtdHlwZXQACGVuY2hhbnRzdAALcmVwYWlyLWNvc3R1cQB+AAYAAAAEdAAISXRlbU1ldGF0AApVTlNQRUNJRklDc3IAN2NvbS5nb29nbGUuY29tbW9uLmNvbGxlY3QuSW1tdXRhYmxlQmlNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAHhxAH4AA3VxAH4ABgAAAAF0AApEVVJBQklMSVRZdXEAfgAGAAAAAXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAABc3EAfgAUAAAAAQ==
+          enchantments:
+            unbreaking: 1
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: scoreboard players set @s ClassInit 3
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      owner:
+        owner: ConsumingSludge
+        uuid: d3fce61f-8cb2-41eb-9312-5b8e92db83e1
+    traitnames: inventory,location,spawned,type,skintrait,mounttrait,equipment,lookclose,owner,commandtrait,scoreboardtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '10':
+    metadata:
+      cached-skin-uuid-name: knight
+      cached-skin-uuid: 457b7d2c-258f-4a1b-9243-78835e4f1e23
+    name: Knight
+    uuid: a3941e5a-04e5-4170-9201-34e2fc0ac668
+    traits:
+      type: PLAYER
+      inventory:
+        '0':
+          type_namespace: minecraft
+          type_key: diamond_sword
+          amount: 1
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAR0AAI9PXQACW1ldGEtdHlwZXQACGVuY2hhbnRzdAALcmVwYWlyLWNvc3R1cQB+AAYAAAAEdAAISXRlbU1ldGF0AApVTlNQRUNJRklDc3IAN2NvbS5nb29nbGUuY29tbW9uLmNvbGxlY3QuSW1tdXRhYmxlQmlNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAHhxAH4AA3VxAH4ABgAAAAF0AApEQU1BR0VfQUxMdXEAfgAGAAAAAXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAABc3EAfgAUAAAAAQ==
+          enchantments:
+            sharpness: 1
+        '38':
+          type_namespace: minecraft
+          type_key: iron_chestplate
+          amount: 1
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAR0AAI9PXQACW1ldGEtdHlwZXQACGVuY2hhbnRzdAALcmVwYWlyLWNvc3R1cQB+AAYAAAAEdAAISXRlbU1ldGF0AApVTlNQRUNJRklDc3IAN2NvbS5nb29nbGUuY29tbW9uLmNvbGxlY3QuSW1tdXRhYmxlQmlNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAHhxAH4AA3VxAH4ABgAAAAF0AApEVVJBQklMSVRZdXEAfgAGAAAAAXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAABc3EAfgAUAAAAAQ==
+          enchantments:
+            unbreaking: 1
+        '40':
+          type_namespace: minecraft
+          type_key: shield
+          amount: 1
+          durability: 0
+      location:
+        bodyYaw: -58.357666
+        world: serverGames
+        x: '-5.5178'
+        y: '52.0'
+        z: '1008.5218'
+        yaw: '-88.5493'
+        pitch: '15.6869'
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: false
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        signature: t+UAYyBy2HUjS7bfHzF8Ha93tk8NCivq6iAC7cvzdXoAf1xjbXLqtdjrhnwhpMRfjDzJX2ewh5gPDgzcbxODQPtwYybAsrBtoZkjnzOuMLfjaP5jEdw5LEQ3n1v9vNb+EWVnHFVx0+jbp1MDrB96UWUWgJ3Wd4gFyRvIZEhcRbi/DUKyuwznlGklU4TYm2z3hyo0S4F1rnL6/DdP3J1mgFJdC6dcd+DFZvaMDgrB/jauQuBv7BJLruw5bwkW2KsQt+Ay/NtJa84Cc7nqaUeIXYcv0QTrREDdLTKXNN6T9A0XEYKBdLe4FpUe1pzmjRZLOKCxLKVKhGSv31Gf2ua+hJiePn22Hf7EAaqvwDTG1VIdKw9+YTRcHmVAZcTb0thWbqhtKKQAHI+N4OF57dGAq3Ssj8XrX/0oEnbG346QPMaPRm/TZOdbybo4f76rkRGpsT12DnV3xvOq0blaMd6C7/Y80u//x40dS4OQrFWgibd9aSmdQ263KgVanDePpDSInn/2Wt39z56cLTw0dM4ldIZ66UxqngdYP5XsbEGO2rIipJXDlBVOWTtrsfyTpZC6gcLFQRPzQjr0iYsdYfZ82IkvUwumDnstAVKGCLRstc+l4XhsqVWSG0No4SD5+NtJyCLQP+uzjWmlLIY5pi1I7yrpQGVHFroRkd/EM6DAjo4=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYxNjUyMDI2NzMwMSwKICAicHJvZmlsZUlkIiA6ICI0NTdiN2QyYzI1OGY0YTFiOTI0Mzc4ODM1ZTRmMWUyMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJLbmlnaHQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZThmOGJjN2UyZGNlZDU4MTNmNGU0ZWJjMzY5YWEzMzUzOTBiZGE2ZDFkZjY0OWMwMzQyM2YyOTNhNTkxMDM5IgogICAgfQogIH0KfQ==
+        updateSkins: false
+      equipment:
+        hand:
+          type_namespace: minecraft
+          type_key: diamond_sword
+          amount: 1
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAR0AAI9PXQACW1ldGEtdHlwZXQACGVuY2hhbnRzdAALcmVwYWlyLWNvc3R1cQB+AAYAAAAEdAAISXRlbU1ldGF0AApVTlNQRUNJRklDc3IAN2NvbS5nb29nbGUuY29tbW9uLmNvbGxlY3QuSW1tdXRhYmxlQmlNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAHhxAH4AA3VxAH4ABgAAAAF0AApEQU1BR0VfQUxMdXEAfgAGAAAAAXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAABc3EAfgAUAAAAAQ==
+          enchantments:
+            sharpness: 1
+        chestplate:
+          type_namespace: minecraft
+          type_key: iron_chestplate
+          amount: 1
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAR0AAI9PXQACW1ldGEtdHlwZXQACGVuY2hhbnRzdAALcmVwYWlyLWNvc3R1cQB+AAYAAAAEdAAISXRlbU1ldGF0AApVTlNQRUNJRklDc3IAN2NvbS5nb29nbGUuY29tbW9uLmNvbGxlY3QuSW1tdXRhYmxlQmlNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAHhxAH4AA3VxAH4ABgAAAAF0AApEVVJBQklMSVRZdXEAfgAGAAAAAXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAABc3EAfgAUAAAAAQ==
+          enchantments:
+            protection: 4
+            unbreaking: 1
+        offhand:
+          type_namespace: minecraft
+          type_key: shield
+          amount: 1
+          durability: 0
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: scoreboard players set @s ClassInit 2
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      owner:
+        owner: ConsumingSludge
+        uuid: d3fce61f-8cb2-41eb-9312-5b8e92db83e1
+    traitnames: inventory,location,spawned,type,skintrait,mounttrait,equipment,lookclose,owner,commandtrait,scoreboardtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '9':
+    metadata:
+      cached-skin-uuid-name: knocker
+      cached-skin-uuid: 02e7eb68-de87-42cf-9102-1f1f781bc6c1
+    name: Knocker
+    uuid: 1f7cd2b7-eda1-493b-aae9-f22585d072bd
+    traits:
+      type: PLAYER
+      inventory:
+        '0':
+          type_namespace: minecraft
+          type_key: stick
+          amount: 2
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAN0AAI9PXQACW1ldGEtdHlwZXQACGVuY2hhbnRzdXEAfgAGAAAAA3QACEl0ZW1NZXRhdAAKVU5TUEVDSUZJQ3NyADdjb20uZ29vZ2xlLmNvbW1vbi5jb2xsZWN0LkltbXV0YWJsZUJpTWFwJFNlcmlhbGl6ZWRGb3JtAAAAAAAAAAACAAB4cQB+AAN1cQB+AAYAAAABdAAJS05PQ0tCQUNLdXEAfgAGAAAAAXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAAB
+          enchantments:
+            knockback: 1
+      location:
+        bodyYaw: -93.82558
+        world: serverGames
+        x: '-5.4896'
+        y: '52.0'
+        z: '1012.4748'
+        yaw: '-88.5576'
+        pitch: '22.406'
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: false
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        signature: enpTiPJEHz+NR1ZtCoifA5MpU0/UxfB5yc6eDbjwA2av1IZjuz5x6TJ9GdsO8c1KyoTc2ucihU5S2ntoMdpwDPew+wrc4kC6kCXde4KaIHjU4Db9o0H9ger91RbASAIzBZMLW9u5UARsV/PJPnXefZwIJ9ltAEOrwYZ6adbm8/cR2aKRX9fvK+iFXQiUd0qTQccx7ZeUcaZsv0Q5Ki4gj+YisU4MEojrOen9FskD5pzQc3I1CPImA6s5Payt6g51MfYhkmEL8Vbkrp4JIT/dFJwM79Fqv6iBG/OD5zR+ere4Fcs1n0y1rVtcgBjv/W9OPI4J9TQIEL4CSM8OAVqqR8guBrZVl+mVUDRbc6iU/JDMwgCem8F/wYYN6/RDBhaWtmP5SKrGBcrDtvLHN1r3s2RrNtQYW7xNiBYMPYG0Oad47wAZZkAuB2Bcnfv3rKa23Xgc69cXf8DqXbSaxdIn8ErKfF2C0rXTGsLySJN1ddtVkDfZr9lfkD2IXlX2KYLRlpRympMB0f8gvQYzM7QGgo9oT4YS83D/hDdfloAXJj/s2RcPDgXCxEeglM4O6mUXHXH7+wmXujJzAZq/zG3xFM0DPSYjPfOHiYQi/5OGHuSB7u3rxdnsuT2mA5Q8MKWnGCmINVoZFSQJNbexkcLiwJfW/KDGcMA55EaUjaBuntQ=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYxNjUxOTY3MTM2NywKICAicHJvZmlsZUlkIiA6ICIwMmU3ZWI2OGRlODc0MmNmOTEwMjFmMWY3ODFiYzZjMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJLbm9ja2VyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQyNWUzYzg1ZWQyMWNiYjY4MjJkZjI0NWVhMTlmZDMxZmQyN2I0ZTU1ZWI1NjNhZjI1ZmE5MDc2NjliMWRiY2UiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
+        updateSkins: false
+      equipment:
+        hand:
+          type_namespace: minecraft
+          type_key: stick
+          amount: 2
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAN0AAI9PXQACW1ldGEtdHlwZXQACGVuY2hhbnRzdXEAfgAGAAAAA3QACEl0ZW1NZXRhdAAKVU5TUEVDSUZJQ3NyADdjb20uZ29vZ2xlLmNvbW1vbi5jb2xsZWN0LkltbXV0YWJsZUJpTWFwJFNlcmlhbGl6ZWRGb3JtAAAAAAAAAAACAAB4cQB+AAN1cQB+AAYAAAABdAAJS05PQ0tCQUNLdXEAfgAGAAAAAXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAAB
+          enchantments:
+            knockback: 1
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: scoreboard players set @s ClassInit 1
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      owner:
+        owner: ConsumingSludge
+        uuid: d3fce61f-8cb2-41eb-9312-5b8e92db83e1
+    traitnames: inventory,location,spawned,type,skintrait,mounttrait,equipment,lookclose,owner,scoreboardtrait,commandtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '7':
+    name: knocker 52 1011
+    uuid: cfff80e2-396c-49b5-8ddc-e2a5c91a86dc
+    traits:
+      type: PLAYER
+      spawned: true
+      location:
+        bodyYaw: !!float 'NaN'
+        x: '0.0'
+        y: '0.0'
+        z: '0.0'
+        yaw: '0.0'
+        pitch: '0.0'
+      owner:
+        owner: ConsumingSludge
+        uuid: d3fce61f-8cb2-41eb-9312-5b8e92db83e1
+    traitnames: location,spawned,type,mounttrait,owner
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '6':
+    name: knocker 52 1011
+    uuid: 58b28497-9e07-4c8c-9ae7-8bd38801bbbd
+    traits:
+      type: PLAYER
+      spawned: true
+      location:
+        bodyYaw: !!float 'NaN'
+        x: '0.0'
+        y: '0.0'
+        z: '0.0'
+        yaw: '0.0'
+        pitch: '0.0'
+      owner:
+        owner: ConsumingSludge
+        uuid: d3fce61f-8cb2-41eb-9312-5b8e92db83e1
+    traitnames: location,spawned,type,mounttrait,owner
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '13':
+    metadata:
+      cached-skin-uuid-name: stalker
+      cached-skin-uuid: 396c3e50-2610-4ef7-90c2-98516368260e
+      removefromplayerlist: false
+      nameplate-visible: hover
+    name: Stalker
+    uuid: 5296e892-06dc-44f0-93f7-4f103229bc85
+    traits:
+      type: PLAYER
+      inventory:
+        '0':
+          type_namespace: minecraft
+          type_key: diamond_sword
+          amount: 1
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAR0AAI9PXQACW1ldGEtdHlwZXQACGVuY2hhbnRzdAALcmVwYWlyLWNvc3R1cQB+AAYAAAAEdAAISXRlbU1ldGF0AApVTlNQRUNJRklDc3IAN2NvbS5nb29nbGUuY29tbW9uLmNvbGxlY3QuSW1tdXRhYmxlQmlNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAHhxAH4AA3VxAH4ABgAAAAF0AApEQU1BR0VfQUxMdXEAfgAGAAAAAXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAABc3EAfgAUAAAAAQ==
+          enchantments:
+            sharpness: 1
+      sneaking:
+        sneaking: false
+      location:
+        bodyYaw: -98.86865
+        world: serverGames
+        x: '-5.5071'
+        y: '52.0'
+        z: '996.4824'
+        yaw: '-91.2104'
+        pitch: '21.7043'
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: false
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        signature: L1+xjwOYh0KfJl/T/epwNuqOjo6bsrySypbW6JOEoWb4iCJwOP1epWVfWWAfDH2QOpzssho2YVQbokvl7WN3zyTxG2G/MhYrpikZCymdtnYuEM3WfS9j7ToTppLAaqu4D5K4O6laAkWBUcbh1oCzhgWkyGHTfxmlC+kydLNM2ej/tQ7VQVR12M9daPdh1Xxmb5OTYCnP4D8V98BofwB8IVyI3i0efB+j977MFKGA7L2FQOXaYwizPHLzb5LFOWyK69wSWZ+u4qSZd3+Kq2WnyU5Mnof09z3ud0ub8nq3fPyhqh1i9cn3VvpzGitbuayhjFyNaW4h2GS9QSqeJwtdiRvCPM6O7Pq2BWKSK/tZmBmSCJ09YCiu50GrA5f/c5tNJ4plTFRp8oUzFvI4LbPnUaCs3i7VR0w+/fJCSY8K6nFQRekNbEm11YlNir/jd7IlrOoNYgqsvLi5/Jl+HlYxaUL/poKpNVVTuDwKZhjvnY+tH+JA3g+p47ulpU/kwxPstb7T9FVHbcIHsQ4kFsWsvTAqzbmkOfr2/3TiWo5HjJmQX5EeX2Qmdbq/niAfNv17UHmpoJkqtSxhAyWzxdEZ6KhAjTyAiO1ov+QssHpi165AIMxhUcDIrPE093BOoe6t+/idec32UE2shOLHmaMIOkzVpEkt/tmtkjKgtTofCyA=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYxNjUzNDA4MjAyNCwKICAicHJvZmlsZUlkIiA6ICIzOTZjM2U1MDI2MTA0ZWY3OTBjMjk4NTE2MzY4MjYwZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdGFsa2VyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2I5NDk0Y2Q2ZWI1ZWU0MDkyM2NjM2VmZGFlM2UyYzQyNmFhMzMzODAyOThlN2MxNThmOWI5Yjk4ZGFmNjU5M2IiCiAgICB9CiAgfQp9
+        updateSkins: false
+      equipment:
+        hand:
+          type_namespace: minecraft
+          type_key: diamond_sword
+          amount: 1
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAR0AAI9PXQACW1ldGEtdHlwZXQACGVuY2hhbnRzdAALcmVwYWlyLWNvc3R1cQB+AAYAAAAEdAAISXRlbU1ldGF0AApVTlNQRUNJRklDc3IAN2NvbS5nb29nbGUuY29tbW9uLmNvbGxlY3QuSW1tdXRhYmxlQmlNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAHhxAH4AA3VxAH4ABgAAAAF0AApEQU1BR0VfQUxMdXEAfgAGAAAAAXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAABc3EAfgAUAAAAAQ==
+          enchantments:
+            sharpness: 1
+      invisible: true
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: scoreboard players set @s ClassInit 5
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      owner:
+        owner: ConsumingSludge
+        uuid: d3fce61f-8cb2-41eb-9312-5b8e92db83e1
+    traitnames: location,spawned,type,skintrait,invisible,mounttrait,equipment,nickname,owner,commandtrait,inventory,lookclose,scoreboardtrait,sneaking
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '14':
+    metadata:
+      cached-skin-uuid-name: powered
+      cached-skin-uuid: 786cbf5f-4458-416a-8f9c-cde96dfa5c14
+    name: Powered
+    uuid: 3794e4a7-0884-4a1d-bb33-28c8b28ec830
+    traits:
+      inventory:
+        '0':
+          type_namespace: minecraft
+          type_key: nether_star
+          amount: 2
+          durability: 0
+      spawned: true
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        signature: sLdqyMFvKWVDoftKMpH5nUbf8zLetrRJZEwMY/11LLELWrT6SJ6ETVgKE71cvwQmi15vS7K45dAAFzSOQ+bSVsjVXSwGa6q5y7DdAGKvLhWuc4lLY7ENYjtXmVtvhVcbT/kwsBi5ipuf1ERVv92jriLEFj2OM/ln1vTjRgzZKHRmV7Dz4akfNrpYy+GcIT8sOBG1eU3b6fZN6L5KYV3ziDyYPJyuztpuRSfJDFQabli9PzSw3ErZ+A+YBaVWR263PFLYv9D0OOa9lrsPa1F38sCRBB7PNrj21cNaLxUcXNSMVGe2Gr4FqJ9J/vtFIxC/w7gclk5sLLEl0AblpLBw8wB0DF7+YqrYgP7KMM8/TteHBFIBoI/hP43rjaMIqIby4zeK2DuFs3f8jTKNUeKZXPSjQpXWhs6p7MbaJtF/w5JRw7mr6MJeUTeXSrDWcM1l5AMBttuHASqArvVpWjSry3v2sat9X4EMtc63s8UwNCtDK6O/dVUh6jFhxrGVucf5We4N5z9QPtnw2pKqL9y+X+S9fzrfNhtqK5qBuDxp+hRUhJipapW/oFKm+njiXtw3BSJLJl/4zN3jbiJGa7b3lV6uxdpEDtkocdGLFWrXXfjNCR1lOp4LtxLsdb/aADiF7qJkZXb1FHrjNdbvFjjbJhXjx+K0kZaOmxuZrjCHrfA=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYxNjU1MzI4Njc2NCwKICAicHJvZmlsZUlkIiA6ICI3ODZjYmY1ZjQ0NTg0MTZhOGY5Y2NkZTk2ZGZhNWMxNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJQb3dlcmVkIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2U5YWE0Zjc5ZDc0YzhiNWFmOWI0ZTgyZTFmNTNhYzdmZDM3MjBiOWVkYjAwZWMzNTQ5MDNiZTBlNDhmZDA1MWIiCiAgICB9CiAgfQp9
+        updateSkins: false
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: false
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      location:
+        bodyYaw: -86.90539
+        world: serverGames
+        x: '-5.4872'
+        y: '52.0'
+        z: '992.504'
+        yaw: '-91.7332'
+        pitch: '-9.716'
+      equipment:
+        hand:
+          type_namespace: minecraft
+          type_key: nether_star
+          amount: 2
+          durability: 0
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: scoreboard players set @s ClassInit 6
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      owner:
+        owner: ConsumingSludge
+        uuid: d3fce61f-8cb2-41eb-9312-5b8e92db83e1
+    traitnames: inventory,location,spawned,type,skintrait,mounttrait,equipment,lookclose,owner,commandtrait,scoreboardtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
